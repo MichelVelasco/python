@@ -7,3 +7,11 @@ def saludar(nombre, edad):  #Definimos una funcion y sus parametros
 
 
 saludar("Michel", 32) #Invocamos una funcion y enviamos los parametros
+
+
+#FUNCIONES LAMBDA
+# SOn funciones anoimas, que se ejecutan en una linea es decir pueden tener una expresion
+
+resultado = lambda numero: numero + 20
+
+print(f"El resultado es: {resultado(30)}")
